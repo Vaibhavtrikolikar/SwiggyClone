@@ -1,0 +1,54 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.form-control{
+    width: 20%;
+    height: 26px;
+}
+
+#state{
+    width: 10%;
+    height: 33px;
+}
+.title{
+    font-size: 13px;
+    font-weight: 600;
+    margin: 6px 0px;
+}
+.form-control,#state{
+    border:none;
+    border: 3px solid #ddd;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.form-control:focus,#state:focus{    /*This Focus Property is used to doosplay shadow when used click on Txt field*/
+    outline: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;    
+}
+
+.form-fields{
+    margin-bottom: 9px;
+}
+
+input[type="text"], input[type="email"], input[type="date"],   /*Input is used to target value inside the textbox*/
+input[type="tel"], input[type="month"], input[type="reset"], input[type="submit"], option{
+    font-family: 'Lato', sans-serif;
+    padding: 0px 14px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding: 0px 14px;
+}
+
+.btn{
+    width: 10%;
+    height: 30px;
+    margin: 0px 18px;  /*This margin property is used to provide some space between two buttons*/
+    background-color: #4636d9;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 19px;
+    height: 37px;
+}
